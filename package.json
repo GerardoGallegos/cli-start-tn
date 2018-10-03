@@ -1,0 +1,39 @@
+{
+  "name": "cli-start-tn",
+  "version": "0.0.1",
+  "description": "CLI tool for create scaffolding of project library based in webpack or rollup",
+  "main": "lib/index.js",
+  "bin": {
+    "tn": "lib/index.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardoGallegos/cli-start-tn.git"
+  },
+  "keywords": [
+    "node",
+    "CLI"
+  ],
+  "author": "Gerardo Gallegos <puxerop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GerardoGallegos/cli-start-tn/issues"
+  },
+  "homepage": "https://github.com/GerardoGallegos/cli-start-tn#readme",
+  "dependencies": {
+    "@octokit/rest": "^15.12.1",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^4.0.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.2.0",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.104.0",
+    "touch": "^3.1.0"
+  }
+}
